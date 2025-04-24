@@ -47,3 +47,10 @@ title = "Gallery"
 [services]
   [services.rss]
     limit = 100
+
+[menu]
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50 # Adjust weight to control order

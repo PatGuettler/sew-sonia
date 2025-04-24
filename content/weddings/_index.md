@@ -1,6 +1,6 @@
 ---
 description: This is the "Weddings" album. It has two sub-albums.
-keywords: [Bride, Groom]
+keywords: [Bride]
 title: Weddings
 weight: 1
 menus: "main"

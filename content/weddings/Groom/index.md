@@ -1,11 +1,14 @@
 ---
-date: 2025-04-22
 title: Groom
-sort_by: Name
+weight: 3
+params:
+  featured_image: download.jpg
+  theme: dark
+  sort_order: desc
+  sort_by: Name # Exif.Date
 categories: ["Tux"]
 resources:
-  - src: pat.jpg
-    title: Having a good laugh
-  - src: pat-17.jpg
-    title: Why so cool
+  - src: SONIA & PATRICK -21.jpg
+    params:
+      cover: true
 ---

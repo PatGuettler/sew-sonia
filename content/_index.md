@@ -1,7 +1,7 @@
 ---
-description: An example site for hugo-theme-gallery. Images from Unsplash.
+description: Elegant Stitches by Sonia - (lower case font under the description)Custom Bridal & Formalwear Tailoring
 #lastmod: 2023-07-05
-title: Hugo Gallery
+title: Sew Sonia Gallery
 resources:
   - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
     params:

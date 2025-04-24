@@ -1,4 +1,4 @@
-module github.com/nicokaiser/hugo-gallery-starter
+module github.com/Slimm-Software/front-sew-sonia
 
 go 1.20
 

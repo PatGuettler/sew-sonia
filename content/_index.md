@@ -1,7 +1,7 @@
 ---
 description: Elegant Stitches by Sonia - (lower case font under the description)Custom Bridal & Formalwear Tailoring
 #lastmod: 2023-07-05
-title: Sew Sonia Gallery
+title: Sew Sonia
 resources:
   - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
     params:

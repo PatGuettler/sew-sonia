@@ -1,17 +1,14 @@
 ---
-description: Elegant Stitches by Sonia - (lower case font under the description)Custom Bridal & Formalwear Tailoring
-#lastmod: 2023-07-05
-title: Sew Sonia
-resources:
-  - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
-    params:
-      cover: true # cover of the home page is used for OpenGraph cards, etc.
-menus:
+title: "Elegant Stitches by Sonia"
+description: "Custom bridal and formalwear crafted with precision and passion"
+menu:
   main:
-    name: Home
-    weight: -1
-# sub-galleries on list pages are sorted by date and weight (descending)
-#cascade:
-#  build:
-#    publishResources: false # do not include full images. Also disable download
+    name: "Home"
+    weight: 1
 ---
+
+# Creating Your Perfect Dress
+
+At Elegant Stitches by Sonia, every gown tells a story. From delicate beading to flowing trains, each stitch is crafted with love and precision to create the wedding dress of your dreams.
+
+{{< gallery category="featured" >}}

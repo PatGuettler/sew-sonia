@@ -1,8 +1,0 @@
-baseURL = 'https://sew-sonia.com/' # Change later
-languageCode = 'en-us'
-title = 'Sew Sonia'
-# theme = "some-theme" # Make sure old theme line is removed or commented out
-
-[module]
-  [[module.imports]]
-    path = "github.com/nicokaiser/hugo-theme-gallery/v4"

@@ -1,0 +1,27 @@
+baseURL = "https://sewsonia.com/"
+languageCode = "en-us"
+title = "Elegant Stitches by SewSonia | Bridal & Formalwear"
+# Using a custom theme with our own layouts
+enableRobotsTXT = true
+
+[params]
+  description = "Custom-designed bridal and formalwear by Sonia. Specialized in creating one-of-a-kind wedding dresses, perfectly tailored gowns, and personalized alterations."
+  images = ["images/social-share.jpg"]
+  mainSections = ["gallery"]
+  email = "sewsonia991@gmail.com"
+  phone = "1 (256) 679-0994"
+  instagram = "elegantstitchesbysonia"
+  facebook = "elegantstitchesbysonia"
+  pinterest = "elegantstitchesbysonia"
+  
+# Menu items are defined in the front matter of content files
+[menu]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

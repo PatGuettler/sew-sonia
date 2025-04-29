@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="gallery-collection">
+    <div class="container">
+        <header class="page-header">
+            <h1 class="page-title">{{ .Title }}</h1>
+            {{ with .Description }}
+            <p class="page-description">{{ . }}</p>
+            {{ end }}
+        </header>
+        
+        <div class="content">
+            {{ .Content }}
+        </div>
+        
+        {{ if .Resources }}
+        <div class="gallery-grid">
+            {{ range .Resources.ByType "image" }}
+            <div class="gallery-item">
+                <a href="{{ .RelPermalink }}" class="gallery-link" data-caption="{{ .Name }}" data-gallery="gallery-{{ $.File.ContentBaseName }}">
+                    <img src="{{ .RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</article>
+{{ end }}

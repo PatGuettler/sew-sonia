@@ -1,0 +1,80 @@
+<div class="gallery-grid">
+    {{ $category := .Get "category" }}
+    {{ if eq $category "bridal" }}
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-1.jpg" class="gallery-link" data-caption="Custom Lace Mermaid Gown" data-gallery="bridal">
+                <img src="/images/gallery/bridal/bride-1.jpg" alt="Custom Lace Mermaid Gown" class="gallery-image">
+                <div class="gallery-caption">Custom Lace Mermaid Gown</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-2.jpg" class="gallery-link" data-caption="Beaded Ballgown with Cathedral Train" data-gallery="bridal">
+                <img src="/images/gallery/bridal/bride-2.jpg" alt="Beaded Ballgown with Cathedral Train" class="gallery-image">
+                <div class="gallery-caption">Beaded Ballgown with Cathedral Train</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-3.jpg" class="gallery-link" data-caption="Vintage-Inspired A-Line Dress" data-gallery="bridal">
+                <img src="/images/gallery/bridal/bride-3.jpg" alt="Vintage-Inspired A-Line Dress" class="gallery-image">
+                <div class="gallery-caption">Vintage-Inspired A-Line Dress</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-4.jpg" class="gallery-link" data-caption="Custom Embellished Wedding Gown" data-gallery="bridal">
+                <img src="/images/gallery/bridal/bride-4.jpg" alt="Custom Embellished Wedding Gown" class="gallery-image">
+                <div class="gallery-caption">Custom Embellished Wedding Gown</div>
+            </a>
+        </div>
+    {{ else if eq $category "formal" }}
+        <div class="gallery-item">
+            <a href="/images/gallery/formal/formal-1.jpg" class="gallery-link" data-caption="Red Carpet Evening Gown" data-gallery="formal">
+                <img src="/images/gallery/formal/formal-1.jpg" alt="Red Carpet Evening Gown" class="gallery-image">
+                <div class="gallery-caption">Red Carpet Evening Gown</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/formal/formal-2.jpg" class="gallery-link" data-caption="Mother of the Bride Dress" data-gallery="formal">
+                <img src="/images/gallery/formal/formal-2.jpg" alt="Mother of the Bride Dress" class="gallery-image">
+                <div class="gallery-caption">Mother of the Bride Dress</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/formal/formal-3.jpg" class="gallery-link" data-caption="Prom Dress with Beaded Bodice" data-gallery="formal">
+                <img src="/images/gallery/formal/formal-3.jpg" alt="Prom Dress with Beaded Bodice" class="gallery-image">
+                <div class="gallery-caption">Prom Dress with Beaded Bodice</div>
+            </a>
+        </div>
+    {{ else if eq $category "alterations" }}
+        <div class="gallery-item">
+            <a href="/images/gallery/alterations/alteration-1.jpg" class="gallery-link" data-caption="Before & After: Vintage Dress Restoration" data-gallery="alterations">
+                <img src="/images/gallery/alterations/alteration-1.jpg" alt="Before & After: Vintage Dress Restoration" class="gallery-image">
+                <div class="gallery-caption">Before & After: Vintage Dress Restoration</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/alterations/alteration-2.jpg" class="gallery-link" data-caption="Neckline Transformation" data-gallery="alterations">
+                <img src="/images/gallery/alterations/alteration-2.jpg" alt="Neckline Transformation" class="gallery-image">
+                <div class="gallery-caption">Neckline Transformation</div>
+            </a>
+        </div>
+    {{ else if eq $category "featured" }}
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-1.jpg" class="gallery-link" data-caption="Signature Lace Wedding Gown" data-gallery="featured">
+                <img src="/images/gallery/bridal/bride-1.jpg" alt="Signature Lace Wedding Gown" class="gallery-image">
+                <div class="gallery-caption">Signature Lace Wedding Gown</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/bridal/bride-3.jpg" class="gallery-link" data-caption="Custom Embroidered Wedding Dress" data-gallery="featured">
+                <img src="/images/gallery/bridal/bride-3.jpg" alt="Custom Embroidered Wedding Dress" class="gallery-image">
+                <div class="gallery-caption">Custom Embroidered Wedding Dress</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="/images/gallery/formal/formal-2.jpg" class="gallery-link" data-caption="Elegant Evening Gown" data-gallery="featured">
+                <img src="/images/gallery/formal/formal-2.jpg" alt="Elegant Evening Gown" class="gallery-image">
+                <div class="gallery-caption">Elegant Evening Gown</div>
+            </a>
+        </div>
+    {{ end }}
+</div>

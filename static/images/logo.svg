@@ -1,0 +1,25 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhvuQ.ttf) format('truetype');
+    }
+    
+    .main-text { 
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      fill: #363636;
+    }
+    
+    .sub-text { 
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 14px;
+      fill: #363636;
+    }
+  </style>
+  
+  <text x="0" y="25" class="main-text">Elegant Stitches</text>
+  <text x="90" y="38" class="sub-text">by Sonia</text>
+</svg>

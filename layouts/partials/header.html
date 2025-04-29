@@ -1,0 +1,62 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="site-branding">
+                <a href="{{ .Site.Home.RelPermalink }}" class="logo">
+                    <svg class="logo-svg" width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+                        <text x="0" y="25" font-family="'Cormorant Garamond', serif" font-size="22" fill="#363636">Elegant Stitches</text>
+                        <text x="90" y="38" font-family="'Cormorant Garamond', serif" font-size="14" fill="#363636">by Sonia</text>
+                    </svg>
+                </a>
+            </div>
+            
+            <nav class="main-navigation">
+                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                
+                <ul id="primary-menu" class="menu">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <li class="menu-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            
+            <div class="social-links">
+                {{ with .Site.Params.instagram }}
+                <a href="https://instagram.com/{{ . }}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                {{ end }}
+                
+                {{ with .Site.Params.facebook }}
+                <a href="https://facebook.com/{{ . }}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                {{ end }}
+                
+                {{ with .Site.Params.pinterest }}
+                <a href="https://pinterest.com/{{ . }}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</header>

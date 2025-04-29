@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elegant Stitches by Sonia on Elegant Stitches by Sonia | Bridal &amp; Formalwear</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Elegant Stitches by Sonia on Elegant Stitches by Sonia | Bridal &amp; Formalwear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>About Elegant Stitches by Sonia At Elegant Stitches by Sonia, I bring dreams to life through custom-designed bridal and formalwear. As a dedicated seamstress with a passion for craftsmanship and detail, I specialize in creating one-of-a-kind wedding dresses, perfectly tailored gowns, and personalized alterations that celebrate your unique style and silhouette. Whether you&amp;rsquo;re walking down the aisle or attending a special event, my goal is to make you feel confident, comfortable, and beautifully you.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Contact I&amp;rsquo;d love to hear about your vision for your special day or event. Whether you&amp;rsquo;re interested in a custom design, need alterations, or just have questions about my services, please don&amp;rsquo;t hesitate to reach out.&#xA;Consultation Requests To schedule a consultation, please fill out the form below or call directly. Initial consultations are $75 (applied to your service when booked) and typically last about 60 minutes.&#xA;Full Name * Email Address * Phone Number Interested In * Please select.</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/</guid>
+      <description>Services At Elegant Stitches by Sonia, I offer a comprehensive range of services to ensure you look and feel your absolute best for your special day or formal event.&#xA;Custom Bridal Gowns Transform your wedding dress dreams into reality with a completely custom-designed gown tailored to your unique style, body shape, and wedding theme.&#xA;Full Custom Design: From concept to creation, a dress designed specifically for you Semi-Custom Design: Modify existing designs to create your perfect look Timeline: 6-9 months recommended for custom gowns Process: Includes concept consultation, fabric selection, multiple fittings, and final detailing Pricing: Starting at $1,800, varies based on design complexity and materials Bridal Alterations Expert alterations to make your purchased wedding dress fit you perfectly.</description>
+    </item>
+  </channel>
+</rss>

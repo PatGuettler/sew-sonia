@@ -5,7 +5,7 @@ title = "Elegant Stitches by SewSonia | Bridal & Formalwear"
 enableRobotsTXT = true
 
 [params]
-  description = "Custom-designed bridal and formalwear by Sonia. Specialized in creating one-of-a-kind wedding dresses, perfectly tailored gowns, and personalized alterations."
+  description = "Custom bridal and formalwear alterations by SewSonia. Specialized in perfectly tailored gowns, and personalized alterations."  
   images = ["images/social-share.jpg"]
   mainSections = ["gallery"]
   email = "sewsonia991@gmail.com"

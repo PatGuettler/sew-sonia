@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in touch with Elegant Stitches by Sonia for consultations and inquiries"
+description: "Get in touch with SewSonia for consultations and inquiries"
 menu:
   main:
     weight: 5
@@ -12,23 +12,14 @@ I'd love to hear about your vision for your special day or event. Whether you're
 
 ## Consultation Requests
 
-To schedule a consultation, please fill out the form below or call directly. Initial consultations are $75 (applied to your service when booked) and typically last about 60 minutes.
+To schedule a consultation, please fill out the form below. Initial consultations are $25 (applied to your service when booked) and typically last about 30-90 minutes.
 
 {{< contact-form >}}
 
-## Studio Location
-
-Elegant Stitches by Sonia  
-123 Bridal Lane  
-Atlanta, GA 30303
-
-**Hours:**  
-Tuesday - Friday: 10:00 AM - 6:00 PM  
-Saturday: 9:00 AM - 3:00 PM  
-Sunday & Monday: Closed
-
-**Phone:** (555) 123-4567  
-**Email:** sonia@sewsonia.com
+**Fitting Hours:**  
+Tuesday - Thursday: 10:00 AM - 6:00 PM  
+  
+**Email:** sewsonia991@gmail.com
 
 ## Follow on Social Media
 

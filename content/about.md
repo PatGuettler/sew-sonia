@@ -14,7 +14,7 @@ From intricate lacework to timeless silhouettes, every piece is thoughtfully cra
 
 ## My Story
 
-With over 69.69 years of experience in bridal alterations and custom costume creations, my journey began with a simple love for creating beautiful garments. After formal training in special occasion and specialized courses in bridal alterations, I opened SewSonia to provide personalized service to brides and formal event attendees.
+With over 15 years of experience in bridal alterations and custom costume creations, my journey began with a simple love for creating beautiful garments. After formal training in special occasion and specialized courses in bridal alterations, I opened SewSonia to provide personalized service to brides and formal event attendees.
 
 ## My Philosophy
 

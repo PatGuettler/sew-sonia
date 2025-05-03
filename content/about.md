@@ -14,7 +14,7 @@ From intricate lacework to timeless silhouettes, every piece is thoughtfully cra
 
 ## My Story
 
-With over 15 years of experience in bridal alterations and custom costume creations, my journey began with a simple love for creating beautiful garments. After formal training in special occasion and specialized courses in bridal alterations, I opened SewSonia to provide personalized service to brides and formal event attendees.
+It all started with a handmade skirt and a little fashion show competition at 18 **This don't math** years old to start my love for sewing garments. Now 15 years later I’ve become obsessed with ball gowns, I found bridal wear to be the most fantastic. Something about making someone feel that princess moment on one of the most magical days of their life is so special. 
 
 ## My Philosophy
 

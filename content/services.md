@@ -12,7 +12,7 @@ At SewSonia, I offer a comprehensive range of services to ensure you look and fe
 
 ## Bridal Alterations
 
-Transform your wedding dress dreams into reality with expert alterations to make your purchased wedding dress fit you perfectly.
+Transform your wedding dress dreams into reality with expert alterations to make your wedding dress fit you perfectly.
 
 - **Comprehensive Alterations**: Including bodice adjustments, hem alterations, bustle addition, and structural changes
 - **Minor Alterations**: Strap adjustments, simple hems, and minor fitting issues

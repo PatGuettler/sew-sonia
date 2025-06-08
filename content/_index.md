@@ -1,6 +1,7 @@
 ---
-title: "Elegant Stitches by SewSonia"
-description: "Custom bridal and formalwear crafted with precision and passion"
+title_sub: "Elegant Stitches by"
+title_main: "SewSonia"
+description: "Custom Alterations for any special occasion dress or gown"
 menu:
   main:
     name: "Home"

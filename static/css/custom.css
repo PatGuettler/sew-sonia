@@ -5,6 +5,17 @@
   }
 }
 
+.title-sub {
+  font-size: 0.5em; /* Makes it half the size of the parent h1 */
+  font-weight: normal;
+  display: block; /* Makes it appear on its own line above the main title */
+  color: #555; /* Optional: make it a lighter color */
+}
+
+.title-main {
+  font-size: 1.2em; /* Optional: make the main title slightly bigger */
+}
+
 /* Add a subtle background pattern to certain sections */
 .testimonials, 
 .services-preview {

@@ -2,6 +2,10 @@
 <section class="hero">
   <div class="hero-content">
     <h1>{{ .Title }}</h1>
+    <h1>
+      <span class="title-sub">{{ .Params.title_sub }}</span>
+      <span class="title-main">{{ .Params.title_main }}</span>
+    </h1>
     <p class="lead">{{ .Description }}</p>
     <div class="hero-buttons">
       <a href="/gallery/" class="btn btn-primary">View Portfolio</a>
@@ -24,8 +28,8 @@
 
 <section class="cta">
   <div class="container">
-    <h2>Ready to create your perfect dress?</h2>
-    <p>Schedule a consultation to discuss your vision and start the journey to your dream gown.</p>
+    <h2>Ready to get your dress fitting like it was made for you?</h2>
+    <p>Schedule a fitting today to get started</p>
     <a href="/contact/" class="btn btn-primary">Contact Sonia</a>
   </div>
 </section>

@@ -23,7 +23,7 @@ const Featured = () => {
   return (
     <section className="featured" style={{ padding: 'var(--spacing-xl) 0', backgroundColor: 'var(--color-background-alt)'}}>
       <div className="container">
-        <h2 className="section-title" style={{ textAlign: 'center', marginBottom: 'var(--spacing-xl)' }}>Featured Work</h2>
+        <h2 className="section-title" style={{ textAlign: 'center', marginBottom: 'var(--spacing-xl)' }}></h2>
         {/* Changed minmax to 250px to make the grid items smaller */}
         <div className="gallery-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', marginBottom: 'var(--spacing-lg)' }}>
           {featuredItems.map((item, index) => (

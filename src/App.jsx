@@ -8,6 +8,9 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import BridalGallery from './components/BridalGallery.jsx';
+import FormalGallery from './components/FormalGallery.jsx';
+import AlterationsGallery from './components/AlterationsGallery.jsx';
 
 function App() {
   const siteConfig = {
@@ -36,6 +39,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact siteConfig={siteConfig}/>} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery/bridal" element={<BridalGallery />} />
+          <Route path="/gallery/formal" element={<FormalGallery />} />
+          <Route path="/gallery/alterations" element={<AlterationsGallery />} />
         </Routes>
       </main>
       <Footer menuItems={menuItems} siteConfig={siteConfig} />

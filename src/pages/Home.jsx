@@ -27,8 +27,13 @@ const Home = () => {
                 </div>
                 <PerfectFit />
             </section>
-            
-            <Featured /> 
+            <section className="intro" style={{padding: 'var(--spacing-xl) 0', textAlign: 'center'}}>
+                <div className="container">
+                    <h2>Show off your best look</h2>
+                    <p>It’s your moment, and our featured work proves that flawless style starts with the perfect details. Let SewSonia bring your vision to life!</p>
+                </div>
+                <Featured /> 
+            </section>
             
             <ServicesPreview />
 

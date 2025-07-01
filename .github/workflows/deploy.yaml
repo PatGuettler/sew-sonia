@@ -53,5 +53,7 @@ jobs:
       # Step 7: Invalidate the CloudFront cache.
       # This is crucial for ensuring users see the updated site immediately.
       # It tells CloudFront to fetch the new files from S3 instead of serving old, cached versions.
-      - name: 💨 Invalidate CloudFront
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+      - name: 🔄 Invalidate CloudFront Cache
+        run: |
+          DISTRIBUTION_ID=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[?@=='yourlabsnow.com']].Id" --output text)
+          aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"

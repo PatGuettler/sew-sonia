@@ -55,5 +55,5 @@ jobs:
       # It tells CloudFront to fetch the new files from S3 instead of serving old, cached versions.
       - name: 🔄 Invalidate CloudFront Cache
         run: |
-          DISTRIBUTION_ID=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[?@=='yourlabsnow.com']].Id" --output text)
+          DISTRIBUTION_ID=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items[?@=='sewsonia.com']].Id" --output text)
           aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"

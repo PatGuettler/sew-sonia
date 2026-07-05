@@ -16,7 +16,7 @@ function App() {
   const siteConfig = {
     email: "sewsonia991@gmail.com",
     phone: "1 (256) 679-0994",
-    instagram: "elegantstitchesbysonia",
+    instagram: "https://www.instagram.com/sew.sonia/",
     facebook: "elegantstitchesbysonia",
     pinterest: "elegantstitchesbysonia",
     etsy: "https://sewsoniadesigns.etsy.com/",

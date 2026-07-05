@@ -25,7 +25,7 @@ const Contact = ({ siteConfig }) => {
                     <h2>Follow on Social Media</h2>
                     <p>Stay updated with my latest creations and behind-the-scenes moments:</p>
                     <ul>
-                        <li><a href={`https://instagram.com/${siteConfig.instagram}`} target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href={siteConfig.instagram} target="_blank" rel="noopener noreferrer">Instagram</a></li>
                         <li><a href={`https://facebook.com/${siteConfig.facebook}`} target="_blank" rel="noopener noreferrer">Facebook</a></li>
                         <li><a href={`https://pinterest.com/${siteConfig.pinterest}`} target="_blank" rel="noopener noreferrer">Pinterest</a></li>
                         {siteConfig.etsy && (

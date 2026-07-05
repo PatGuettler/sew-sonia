@@ -11,6 +11,7 @@ const ContactForm = ({ recipientEmail }) => {
     formData.append('_subject', 'New contact request from SewSonia website');
     formData.append('_template', 'table');
     formData.append('_captcha', 'false');
+    formData.append('_replyto', formData.get('email'));
 
     try {
       const response = await fetch(
@@ -56,8 +57,17 @@ const ContactForm = ({ recipientEmail }) => {
           <input type="text" id="name" name="name" required disabled={status === 'submitting'} />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" required disabled={status === 'submitting'} />
+          <label htmlFor="email">
+            Email <span className="required-indicator" aria-hidden="true">*</span>
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-required="true"
+            disabled={status === 'submitting'}
+          />
         </div>
         <div className="form-group">
           <label htmlFor="service">Service of Interest</label>

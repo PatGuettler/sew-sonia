@@ -26,21 +26,26 @@ const PinterestIcon = () => (
 );
 
 const EtsyIcon = () => (
-  <img
-    src="/icons/etsy.png"
-    alt=""
-    width={20}
-    height={20}
-    aria-hidden="true"
-    className="etsy-icon"
-  />
+  <svg {...iconProps}>
+    <text
+      x="12"
+      y="17"
+      textAnchor="middle"
+      fontFamily="Georgia, 'Times New Roman', serif"
+      fontSize="18"
+      fontWeight="700"
+      fill="currentColor"
+    >
+      E
+    </text>
+  </svg>
 );
 
 const SocialLinks = ({ siteConfig }) => (
   <>
     {siteConfig.instagram && (
       <a
-        href={`https://instagram.com/${siteConfig.instagram}`}
+        href={siteConfig.instagram}
         className="social-link"
         target="_blank"
         rel="noopener noreferrer"

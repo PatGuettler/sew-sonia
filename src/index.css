@@ -205,6 +205,11 @@ img, svg {
     background-color: var(--color-primary-light);
 }
 
+.etsy-icon {
+    display: block;
+    border-radius: 3px;
+}
+
 /* Hero Section */
 .hero {
     position: relative;

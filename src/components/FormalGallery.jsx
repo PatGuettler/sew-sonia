@@ -1,11 +1,6 @@
+import { formalImages } from '../data/galleryImages';
+
 const FormalGallery = () => {
-    const images = import.meta.glob('/public/images/formal/*.{jpg,jpeg,png,gif}', {
-        eager: true,
-        import: 'default',
-    });
-
-    const imagePaths = Object.keys(images).map((path) => path.replace('/public', ''));
-
     return (
         <section className="page-content" style={{ padding: '4rem 0', backgroundColor: '#fff' }}>
             <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
@@ -21,7 +16,7 @@ const FormalGallery = () => {
                         gap: '1.5rem',
                     }}
                 >
-                    {imagePaths.map((src, i) => (
+                    {formalImages.map((src, i) => (
                         <div
                             key={i}
                             style={{
@@ -34,6 +29,7 @@ const FormalGallery = () => {
                             <img
                                 src={src}
                                 alt={`Formal ${i + 1}`}
+                                loading="lazy"
                                 style={{
                                     width: '100%',
                                     height: 'auto',

@@ -1,15 +1,10 @@
+import { alterationsImages } from '../data/galleryImages';
+
 const AlterationsGallery = () => {
-    const images = import.meta.glob('/public/images/alterations/*.{jpg,jpeg,png,gif}', {
-        eager: true,
-        import: 'default',
-    });
-
-    const imagePaths = Object.keys(images).map((path) => path.replace('/public', ''));
-
     return (
         <section className="page-content" style={{ padding: '4rem 0', backgroundColor: '#fff' }}>
             <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
-                <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Formal Gallery</h1>
+                <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Alterations Gallery</h1>
                 <p style={{ color: '#b97b5c', fontSize: '1.1rem', marginBottom: '2rem' }}>
                     A collection of graceful and elegant alterations looks.
                 </p>
@@ -21,7 +16,7 @@ const AlterationsGallery = () => {
                         gap: '1.5rem',
                     }}
                 >
-                    {imagePaths.map((src, i) => (
+                    {alterationsImages.map((src, i) => (
                         <div
                             key={i}
                             style={{
@@ -34,6 +29,7 @@ const AlterationsGallery = () => {
                             <img
                                 src={src}
                                 alt={`Alterations ${i + 1}`}
+                                loading="lazy"
                                 style={{
                                     width: '100%',
                                     height: 'auto',

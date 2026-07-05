@@ -17,7 +17,7 @@ const Contact = ({ siteConfig }) => {
                     <h2>Consultation Requests</h2>
                     <p>To schedule a consultation, please fill out the form below. Initial consultations are $25 (applied to your service when booked) and typically last about 30-90 minutes.</p>
 
-                    <ContactForm />
+                    <ContactForm recipientEmail={siteConfig.email} />
 
                     <p><strong>Fitting Hours:</strong><br/>Tuesday - Thursday: 10:00 AM - 6:00 PM</p>
                     <p><strong>Email:</strong> {siteConfig.email}</p>

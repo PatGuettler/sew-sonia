@@ -382,6 +382,34 @@ img, svg {
     text-align: center;
 }
 
+.form-honey {
+    display: none;
+}
+
+.form-message {
+    max-width: 600px;
+    margin: 0 auto var(--spacing-md);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.form-message--success {
+    background-color: #eef6ee;
+    border: 1px solid #b8ddb8;
+    color: #2d5a2d;
+}
+
+.form-message--error {
+    background-color: #fdf0ef;
+    border: 1px solid #e8b4b0;
+    color: #8a3a34;
+}
+
+.form-message a {
+    color: inherit;
+    font-weight: 600;
+}
+
 
 /* Footer */
 .site-footer {

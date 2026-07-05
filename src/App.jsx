@@ -19,6 +19,7 @@ function App() {
     instagram: "elegantstitchesbysonia",
     facebook: "elegantstitchesbysonia",
     pinterest: "elegantstitchesbysonia",
+    etsy: "https://sewsoniadesigns.etsy.com/",
   };
   
   const menuItems = [

@@ -17,6 +17,7 @@ const ContactForm = () => {
         <select id="service" name="service">
           <option>Bridal Alterations</option>
           <option>Formalwear Alterations</option>
+          <option>Embroidery</option>
           <option>Consultation</option>
           <option>Other</option>
         </select>

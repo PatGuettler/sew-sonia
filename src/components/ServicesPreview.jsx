@@ -36,14 +36,23 @@ const services = [
         </svg>
     )
   },
-    {
-    title: "Custom Creations",
-    description: "Custom creations for all your special events and occasions.",
-    link: "/services",
+  {
+    title: "Embroidery",
+    description: "Custom monograms, bridal veils, and embroidered keepsakes — shop on Etsy.",
+    link: "https://sewsoniadesigns.etsy.com/",
+    external: true,
     icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-        </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2v4"></path>
+        <path d="M12 18v4"></path>
+        <path d="M4.93 4.93l2.83 2.83"></path>
+        <path d="M16.24 16.24l2.83 2.83"></path>
+        <path d="M2 12h4"></path>
+        <path d="M18 12h4"></path>
+        <path d="M4.93 19.07l2.83-2.83"></path>
+        <path d="M16.24 7.76l2.83-2.83"></path>
+        <circle cx="12" cy="12" r="3"></circle>
+      </svg>
     )
   }
 ];
@@ -61,7 +70,11 @@ const ServicesPreview = () => {
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <Link to={service.link} className="service-link" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Learn More</Link>
+              {service.external ? (
+                <a href={service.link} className="service-link" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Shop on Etsy</a>
+              ) : (
+                <Link to={service.link} className="service-link" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Learn More</Link>
+              )}
             </div>
           ))}
         </div>

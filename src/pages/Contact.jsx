@@ -28,6 +28,9 @@ const Contact = ({ siteConfig }) => {
                         <li><a href={`https://instagram.com/${siteConfig.instagram}`} target="_blank" rel="noopener noreferrer">Instagram</a></li>
                         <li><a href={`https://facebook.com/${siteConfig.facebook}`} target="_blank" rel="noopener noreferrer">Facebook</a></li>
                         <li><a href={`https://pinterest.com/${siteConfig.pinterest}`} target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+                        {siteConfig.etsy && (
+                          <li><a href={siteConfig.etsy} target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
+                        )}
                     </ul>
                 </div>
             </div>

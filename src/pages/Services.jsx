@@ -7,7 +7,7 @@ const Services = () => {
       <div className="container">
         <header className="page-header">
           <h1 className="page-title">Services</h1>
-          <p className="page-description">Explore our bridal and special occasion dress services</p>
+          <p className="page-description">Explore our bridal, embroidery, and special occasion dress services</p>
         </header>
 
         <div className="content">
@@ -25,6 +25,18 @@ const Services = () => {
             <li>30-90 minute appointment to discuss needs and options</li>
           </ul>
           <p>To schedule a consultation or inquire about services, please <Link to="/contact">contact me</Link>.</p>
+
+          <h2>Embroidery</h2>
+          <p>Custom embroidery for bridal veils, monograms, handkerchiefs, and special keepsakes. Browse ready-made designs and order custom pieces through my Etsy shop.</p>
+          <ul>
+            <li>Custom monograms and names</li>
+            <li>Bridal veils and accessories</li>
+            <li>Handkerchiefs and gift items</li>
+            <li>Personalized embroidery designs</li>
+          </ul>
+          <p>
+            <a href="https://sewsoniadesigns.etsy.com/" target="_blank" rel="noopener noreferrer">Visit SewSonia Designs on Etsy</a>
+          </p>
 
           <h2>Bridal Alterations</h2>
           <ul>

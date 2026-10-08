@@ -100,6 +100,7 @@ const ContactForm = ({ recipientEmail, defaultService }) => {
         <input type="hidden" name="_subject" value="New contact request from SewSonia website" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_cc" value="patguettler@gmail.com" />
         <input type="hidden" name="_next" value={nextUrl} />
         <input type="text" name="_honey" className="form-honey" tabIndex={-1} autoComplete="off" />
 

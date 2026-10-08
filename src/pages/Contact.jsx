@@ -1,26 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import ContactForm from '../components/ContactForm';
 
 const Contact = ({ siteConfig }) => {
+    const [searchParams] = useSearchParams();
+    const service = searchParams.get('service') || undefined;
+
     return (
         <section className="page-content">
             <div className="container">
                 <header className="page-header">
                     <h1 className="page-title">Contact</h1>
-                    <p className="page-description">Get in touch with SewSonia for consultations and inquiries</p>
+                    <p className="page-description">Get in touch with SewSonia about alterations, embroidery, and consultations</p>
                 </header>
 
                 <div className="content">
-                    <p>I'd love to hear about your vision for your special day or event. Whether you're interested in a custom design, need alterations, or just have questions about my services, please don't hesitate to reach out.</p>
+                    <p>I'd love to hear about your vision for your special day or event. Whether you need alterations, would like custom embroidery, or just have questions about my services, please don't hesitate to reach out.</p>
 
-                    <h2>Consultation Requests</h2>
-                    <p>To schedule a consultation, please fill out the form below. Initial consultations are $25 (applied to your service when booked) and typically last about 30-90 minutes.</p>
+                    <h2>Send a Message</h2>
+                    <p>Fill out the form below to schedule a consultation or ask about alterations or embroidery work, and I'll get back to you.</p>
 
-                    <ContactForm recipientEmail={siteConfig.email} />
+                    <ContactForm recipientEmail={siteConfig.email} defaultService={service} />
 
-                    <p><strong>Fitting Hours:</strong><br/>Tuesday - Thursday: 10:00 AM - 6:00 PM</p>
-                    <p><strong>Email:</strong> {siteConfig.email}</p>
+                    <p><strong>Email:</strong> <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
 
                     <h2>Follow on Social Media</h2>
                     <p>Stay updated with my latest creations and behind-the-scenes moments:</p>

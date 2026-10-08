@@ -12,7 +12,7 @@ const Home = () => {
                         <span style={{display: 'block', fontSize: '1.5rem', fontWeight: 'normal'}}>Elegant Stitches by</span>
                         <span style={{display: 'block'}}>SewSonia</span>
                     </h1>
-                    <p className="lead">Custom Alterations for any special occasion dress or gown</p>
+                    <p className="lead">Custom alterations for any special occasion dress or gown, plus custom embroidery</p>
                     <div className="hero-buttons">
                         <Link to="/gallery" className="btn btn-primary">View Portfolio</Link>
                         <Link to="/contact" className="btn btn-secondary">Schedule Consultation</Link>

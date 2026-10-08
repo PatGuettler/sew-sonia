@@ -19,15 +19,8 @@ const Services = () => {
             <li><strong>Timeline:</strong> 6-8 weeks depending on your needs</li>
           </ul>
 
-          <h2>Consultations</h2>
-          <p>Schedule a consultation to discuss your vision and explore how I can help create your perfect fit.</p>
-          <ul>
-            <li>30-90 minute appointment to discuss needs and options</li>
-          </ul>
-          <p>To schedule a consultation or inquire about services, please <Link to="/contact">contact me</Link>.</p>
-
-          <h2>Embroidery</h2>
-          <p>Custom embroidery for bridal veils, monograms, handkerchiefs, and special keepsakes. Browse ready-made designs and order custom pieces through my Etsy shop.</p>
+          <h2>Custom Embroidery</h2>
+          <p>I'm currently taking custom embroidery work! From bridal veils and monograms to handkerchiefs and one-of-a-kind keepsakes, I'd love to help stitch something special for you.</p>
           <ul>
             <li>Custom monograms and names</li>
             <li>Bridal veils and accessories</li>
@@ -35,8 +28,13 @@ const Services = () => {
             <li>Personalized embroidery designs</li>
           </ul>
           <p>
-            <a href="https://sewsoniadesigns.etsy.com/" target="_blank" rel="noopener noreferrer">Visit SewSonia Designs on Etsy</a>
+            <Link to="/contact?service=Embroidery">Contact me about an embroidery project</Link>, or browse ready-made designs on{' '}
+            <a href="https://sewsoniadesigns.etsy.com/" target="_blank" rel="noopener noreferrer">my Etsy shop</a>.
           </p>
+
+          <h2>Consultations</h2>
+          <p>Schedule a consultation to discuss your vision and explore how I can help create your perfect fit.</p>
+          <p>To schedule a consultation or inquire about services, please <Link to="/contact">contact me</Link>.</p>
 
           <h2>Bridal Alterations</h2>
           <ul>

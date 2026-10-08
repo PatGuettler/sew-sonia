@@ -38,9 +38,9 @@ const services = [
   },
   {
     title: "Embroidery",
-    description: "Custom monograms, bridal veils, and embroidered keepsakes — shop on Etsy.",
-    link: "https://sewsoniadesigns.etsy.com/",
-    external: true,
+    description: "Now taking custom embroidery work — monograms, bridal veils, and embroidered keepsakes.",
+    link: "/contact?service=Embroidery",
+    linkText: "Ask About Embroidery",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2v4"></path>
@@ -70,11 +70,7 @@ const ServicesPreview = () => {
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              {service.external ? (
-                <a href={service.link} className="service-link" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Shop on Etsy</a>
-              ) : (
-                <Link to={service.link} className="service-link" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>Learn More</Link>
-              )}
+              <Link to={service.link} className="service-link" style={{ fontWeight: 600, textTransform: 'uppercase', fontSize: '0.875rem' }}>{service.linkText || 'Learn More'}</Link>
             </div>
           ))}
         </div>

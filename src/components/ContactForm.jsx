@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ContactForm = ({ recipientEmail }) => {
+const ContactForm = ({ recipientEmail, defaultService }) => {
   const [status, setStatus] = useState('idle');
 
   const handleSubmit = async (event) => {
@@ -71,7 +71,7 @@ const ContactForm = ({ recipientEmail }) => {
         </div>
         <div className="form-group">
           <label htmlFor="service">Service of Interest</label>
-          <select id="service" name="service" disabled={status === 'submitting'}>
+          <select id="service" name="service" defaultValue={defaultService} disabled={status === 'submitting'}>
             <option>Bridal Alterations</option>
             <option>Formalwear Alterations</option>
             <option>Embroidery</option>
